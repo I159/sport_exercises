@@ -3,7 +3,7 @@ import math
 import string
 
 
-def find_uniq(arr):
+def find_unique(arr):
     """Find a unique number."""
     count = collections.Counter(arr)
     n = [k for (k, v) in count.items() if v == 1][0]
